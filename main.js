@@ -41,7 +41,7 @@ while (true) {
    
    let choice = Number(input("[?] CHOICE: "));
    
-   if (choice < 1 || choice > gifts.length) {
+   if (!isNaN(choice) && choice < 1 || choice > gifts.length) {
       console.log("[x] YOUR CHOICE IS INVALID.");
    } else {
       
