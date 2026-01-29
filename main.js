@@ -5,7 +5,7 @@ function generateRandomBoxes() {
    const gifts = [
       {
          "type": "Luck",
-         "present": "1x Bitcoin"
+         "present": "10x Bitcoin"
       },
       {
          "type": "Bad luck",
